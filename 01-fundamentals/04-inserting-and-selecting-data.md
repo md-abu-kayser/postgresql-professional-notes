@@ -1,23 +1,6 @@
-# Inserting and selecting data
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **inserting and selecting data** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# Inserting & Selecting Data
 
 ```sql
--- example SQL related to inserting and selecting data
+INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com');
+SELECT * FROM users;
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

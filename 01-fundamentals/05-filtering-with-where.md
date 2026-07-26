@@ -1,23 +1,5 @@
-# Filtering with where
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **filtering with where** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# Filtering with WHERE
 
 ```sql
--- example SQL related to filtering with where
+SELECT * FROM users WHERE name = 'Alice' AND created_at > '2024-01-01';
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

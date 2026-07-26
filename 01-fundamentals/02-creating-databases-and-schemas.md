@@ -1,23 +1,6 @@
-# Creating databases and schemas
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **creating databases and schemas** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# Creating Databases & Schemas
 
 ```sql
--- example SQL related to creating databases and schemas
+CREATE DATABASE mydb;
+CREATE SCHEMA myapp;
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

@@ -1,23 +1,5 @@
-# What is postgresql
+# What is PostgreSQL?
 
-> Status: Draft placeholder
+Advanced open‑source relational database with over 30 years of active development. Fully ACID compliant, extensible.
 
-## Overview
-
-Notes on **what is postgresql** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to what is postgresql
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Creating Databases & Schemas](02-creating-databases-and-schemas.md)

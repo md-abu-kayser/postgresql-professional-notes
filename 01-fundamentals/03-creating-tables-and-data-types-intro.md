@@ -1,23 +1,9 @@
-# Creating tables and data types intro
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **creating tables and data types intro** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# Creating Tables & Data Types Intro
 
 ```sql
--- example SQL related to creating tables and data types intro
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(255) UNIQUE
+);
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
