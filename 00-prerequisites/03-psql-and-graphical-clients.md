@@ -1,23 +1,5 @@
-# Psql and graphical clients
+# psql & Graphical Clients
 
-> Status: Draft placeholder
+`psql` is the command‑line client. Graphical: pgAdmin, DBeaver, TablePlus, DataGrip.
 
-## Overview
-
-Notes on **psql and graphical clients** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to psql and graphical clients
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Server Architecture Overview](04-server-architecture-overview.md)

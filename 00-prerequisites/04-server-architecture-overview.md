@@ -1,23 +1,5 @@
-# Server architecture overview
+# Server Architecture Overview
 
-> Status: Draft placeholder
+Processes, shared memory, WAL, background workers, MVCC concepts.
 
-## Overview
-
-Notes on **server architecture overview** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to server architecture overview
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **01-fundamentals** – [What is PostgreSQL?](../01-fundamentals/01-what-is-postgresql.md)
