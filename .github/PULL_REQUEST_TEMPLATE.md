@@ -1,9 +1,15 @@
 ## Description
 
-<!-- Summarize the change -->
+Fixes # (issue)
+
+## Type of change
+
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Documentation update
+- [ ] Code refactor
 
 ## Checklist
 
-- [ ] Follows the existing folder/naming structure
-- [ ] SQL examples tested locally
-- [ ] References added where relevant
+- [ ] My code follows style guidelines
+- [ ] I have performed a self-review
