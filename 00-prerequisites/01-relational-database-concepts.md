@@ -1,23 +1,5 @@
-# Relational database concepts
+# Relational Database Concepts
 
-> Status: Draft placeholder
+Tables, rows, columns, primary keys, foreign keys, constraints, normalization, SQL.
 
-## Overview
-
-Notes on **relational database concepts** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to relational database concepts
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Installing PostgreSQL](02-installing-postgresql.md)

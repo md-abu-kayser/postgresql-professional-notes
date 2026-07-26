@@ -1,23 +1,8 @@
-# Installing postgresql
+# Installing PostgreSQL
 
-> Status: Draft placeholder
+- Linux: `sudo apt install postgresql`
+- macOS: `brew install postgresql` or Postgres.app
+- Windows: installer from postgresql.org
+- Docker: `docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=pass postgres:16`
 
-## Overview
-
-Notes on **installing postgresql** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to installing postgresql
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [psql & Graphical Clients](03-psql-and-graphical-clients.md)
