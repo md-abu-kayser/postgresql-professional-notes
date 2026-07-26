@@ -1,14 +1,16 @@
 ---
 name: Bug report
-about: Report an error or inaccuracy in the notes
+about: Report a PostgreSQL‑related issue
 title: "[BUG] "
 labels: bug
+assignees: ""
 ---
 
-**Which file/section is affected?**
+**Describe the bug**
+**To Reproduce**
+**Expected behavior**
+**Environment:**
 
-**Describe the issue**
-
-**Expected correction**
-
-**Additional context**
+- PostgreSQL version:
+- OS:
+- Client (psql, GUI):
