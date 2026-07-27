@@ -1,23 +1,9 @@
-# Pl pgsql basics
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **pl pgsql basics** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# PL/pgSQL Basics
 
 ```sql
--- example SQL related to pl pgsql basics
+CREATE FUNCTION greet(name TEXT) RETURNS TEXT AS $$
+BEGIN
+  RETURN 'Hello, ' || name || '!';
+END;
+$$ LANGUAGE plpgsql;
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

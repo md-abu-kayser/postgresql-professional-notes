@@ -1,23 +1,5 @@
-# Variables and control flow
+# Variables & Control Flow
 
-> Status: Draft placeholder
+`DECLARE`, `IF/THEN/ELSE`, `CASE`, `LOOP`, `WHILE`, `FOR`.
 
-## Overview
-
-Notes on **variables and control flow** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to variables and control flow
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Cursors & Dynamic SQL](03-cursors-and-dynamic-sql.md)
