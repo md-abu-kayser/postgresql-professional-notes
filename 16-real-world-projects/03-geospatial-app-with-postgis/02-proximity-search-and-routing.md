@@ -1,23 +1,5 @@
-# Proximity search and routing
+# Proximity Search & Routing
 
-> Status: Draft placeholder
+`ST_DWithin`, `ST_Distance`. Integrate with pgRouting for navigation.
 
-## Overview
-
-Notes on **proximity search and routing** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to proximity search and routing
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **Vector Search with pgvector** – [Embedding Storage & Indexing](../04-vector-search-with-pgvector/01-embedding-storage-and-indexing.md)

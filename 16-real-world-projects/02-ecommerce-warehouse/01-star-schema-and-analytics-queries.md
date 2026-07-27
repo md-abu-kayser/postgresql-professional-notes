@@ -1,23 +1,5 @@
-# Star schema and analytics queries
+# Ecommerce Warehouse – Star Schema
 
-> Status: Draft placeholder
+Fact and dimension tables. Aggregation queries for dashboards.
 
-## Overview
-
-Notes on **star schema and analytics queries** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to star schema and analytics queries
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [ELT Pipelines & Performance](02-elt-pipelines-and-performance.md)

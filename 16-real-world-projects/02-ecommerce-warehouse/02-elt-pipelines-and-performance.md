@@ -1,23 +1,5 @@
-# Elt pipelines and performance
+# ELT Pipelines & Performance
 
-> Status: Draft placeholder
+Extract, load, transform using foreign data wrappers or COPY. Optimize with partitioning.
 
-## Overview
-
-Notes on **elt pipelines and performance** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to elt pipelines and performance
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **Geospatial App with PostGIS** – [Data Import & Indexing](../03-geospatial-app-with-postgis/01-data-import-and-indexing.md)

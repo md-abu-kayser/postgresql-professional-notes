@@ -1,23 +1,5 @@
-# Data import and indexing
+# Geospatial App – Data Import & Indexing
 
-> Status: Draft placeholder
+Load shapefiles with `shp2pgsql`. Create GIST indexes.
 
-## Overview
-
-Notes on **data import and indexing** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to data import and indexing
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Proximity Search & Routing](02-proximity-search-and-routing.md)
