@@ -1,23 +1,5 @@
-# Cdc setup and kafka connect
+# CDC Setup & Kafka Connect
 
-> Status: Draft placeholder
+Use logical decoding + Debezium to stream changes to Kafka.
 
-## Overview
-
-Notes on **cdc setup and kafka connect** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to cdc setup and kafka connect
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Materialized Views Refresh Strategies](02-materialized-views-refresh-strategies.md)

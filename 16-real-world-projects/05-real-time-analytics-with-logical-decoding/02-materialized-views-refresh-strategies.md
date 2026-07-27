@@ -1,23 +1,5 @@
-# Materialized views refresh strategies
+# Materialized Views Refresh
 
-> Status: Draft placeholder
+`REFRESH MATERIALIZED VIEW CONCURRENTLY` on schedule. Incremental refresh with triggers.
 
-## Overview
-
-Notes on **materialized views refresh strategies** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to materialized views refresh strategies
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **17-code-snippets** – [useful-admin-queries.sql](../17-code-snippets/useful-admin-queries.sql)
