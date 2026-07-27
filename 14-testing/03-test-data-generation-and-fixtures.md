@@ -1,23 +1,5 @@
-# Test data generation and fixtures
+# Test Data Generation & Fixtures
 
-> Status: Draft placeholder
+Use `generate_series`, `random()`, or tools like `pg_dump` of a sanitized DB.
 
-## Overview
-
-Notes on **test data generation and fixtures** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to test data generation and fixtures
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Load Testing with pgbench](04-load-testing-with-pgbench.md)

@@ -1,23 +1,5 @@
-# Integration testing databases in ci
+# Integration Testing Databases in CI
 
-> Status: Draft placeholder
+Spin up test database (Docker), run migrations, execute integration tests.
 
-## Overview
-
-Notes on **integration testing databases in ci** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to integration testing databases in ci
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Test Data Generation & Fixtures](03-test-data-generation-and-fixtures.md)

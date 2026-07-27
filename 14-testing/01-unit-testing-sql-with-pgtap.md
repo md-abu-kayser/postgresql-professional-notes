@@ -1,23 +1,5 @@
-# Unit testing sql with pgtap
+# Unit Testing SQL with pgTAP
 
-> Status: Draft placeholder
+Write tests for functions and schemas using pgTAP.
 
-## Overview
-
-Notes on **unit testing sql with pgtap** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to unit testing sql with pgtap
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Integration Testing Databases in CI](02-integration-testing-databases-in-ci.md)
