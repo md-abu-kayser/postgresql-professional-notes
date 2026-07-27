@@ -1,23 +1,5 @@
-# Sharding with citus and foreign data wrappers
+# Sharding with Citus & FDW
 
-> Status: Draft placeholder
+Citus distributes table across nodes. Postgres FDW to query external data sources.
 
-## Overview
-
-Notes on **sharding with citus and foreign data wrappers** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to sharding with citus and foreign data wrappers
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [TimescaleDB for Time‑Series](05-timescaledb-for-time-series.md)

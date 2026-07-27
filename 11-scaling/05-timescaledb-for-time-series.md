@@ -1,23 +1,5 @@
-# Timescaledb for time series
+# TimescaleDB for Time‑Series
 
-> Status: Draft placeholder
+Extension for efficient time‑series storage, automatic partitioning (hypertables), compression.
 
-## Overview
-
-Notes on **timescaledb for time series** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to timescaledb for time series
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **12-extensions-and-ecosystem** – [PostGIS for Geospatial Data](../12-extensions-and-ecosystem/01-postgis-for-geospatial-data.md)
