@@ -1,23 +1,5 @@
-# Replication slots and failover
+# Replication Slots & Failover
 
-> Status: Draft placeholder
+Replication slots prevent WAL removal before standby consumes it. Manual or automatic failover.
 
-## Overview
-
-Notes on **replication slots and failover** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to replication slots and failover
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Logical Replication & Decoding](03-logical-replication-and-decoding.md)

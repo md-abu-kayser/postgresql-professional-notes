@@ -1,23 +1,5 @@
-# Patroni and automatic failover
+# Patroni & Automatic Failover
 
-> Status: Draft placeholder
+HA cluster manager using etcd/consul. Handles leader election and failover.
 
-## Overview
-
-Notes on **patroni and automatic failover** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to patroni and automatic failover
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Multi‑Master & BDR Overview](05-multi-master-and-bdr-overview.md)

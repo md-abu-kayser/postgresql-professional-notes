@@ -1,23 +1,5 @@
-# Streaming replication and wal
+# Streaming Replication & WAL
 
-> Status: Draft placeholder
+Primary sends WAL records to standby(s). Asynchronous or synchronous.
 
-## Overview
-
-Notes on **streaming replication and wal** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to streaming replication and wal
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Replication Slots & Failover](02-replication-slots-and-failover.md)

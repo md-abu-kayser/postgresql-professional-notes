@@ -1,23 +1,5 @@
-# Multi master and bdr overview
+# Multi‑Master & BDR
 
-> Status: Draft placeholder
+BDR (Bi‑Directional Replication) allows writes on multiple nodes. Complex conflict resolution.
 
-## Overview
-
-Notes on **multi master and bdr overview** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to multi master and bdr overview
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **11-scaling** – [Read Scaling with Replicas](../11-scaling/01-read-scaling-with-replicas.md)
