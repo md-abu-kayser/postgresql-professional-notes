@@ -1,23 +1,5 @@
-# Deadlocks and detection
+# Deadlocks
 
-> Status: Draft placeholder
+PostgreSQL automatically detects and resolves deadlocks by aborting one transaction.
 
-## Overview
-
-Notes on **deadlocks and detection** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to deadlocks and detection
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [VACUUM & Autovacuum Deep Dive](05-vacuum-and-autovacuum-deep-dive.md)

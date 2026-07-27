@@ -1,23 +1,5 @@
-# Vacuum and autovacuum deep dive
+# VACUUM & Autovacuum
 
-> Status: Draft placeholder
+Removes dead tuples, freezes transaction IDs. Tuning autovacuum parameters.
 
-## Overview
-
-Notes on **vacuum and autovacuum deep dive** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to vacuum and autovacuum deep dive
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **07-stored-procedures-and-functions** – [PL/pgSQL Basics](../07-stored-procedures-and-functions/01-pl-pgsql-basics.md)

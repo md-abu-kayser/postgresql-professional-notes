@@ -1,23 +1,5 @@
-# Locking row level table level advisory
+# Locking
 
-> Status: Draft placeholder
+Explicit: `SELECT ... FOR UPDATE`. Implicit locks. Advisory locks: `pg_advisory_lock()`.
 
-## Overview
-
-Notes on **locking row level table level advisory** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to locking row level table level advisory
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Deadlocks & Detection](04-deadlocks-and-detection.md)
