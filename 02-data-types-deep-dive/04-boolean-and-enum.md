@@ -1,23 +1,5 @@
-# Boolean and enum
+# Boolean & ENUM
 
-> Status: Draft placeholder
+`BOOLEAN` accepts TRUE/FALSE/NULL. `CREATE TYPE mood AS ENUM ('happy', 'sad');`
 
-## Overview
-
-Notes on **boolean and enum** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to boolean and enum
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Arrays & Range Types](05-arrays-and-range-types.md)

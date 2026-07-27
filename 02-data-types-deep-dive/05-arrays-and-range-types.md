@@ -1,23 +1,5 @@
-# Arrays and range types
+# Arrays & Range Types
 
-> Status: Draft placeholder
+Arrays: `INTEGER[]`, `TEXT[]`. Range types: `int4range`, `tsrange`.
 
-## Overview
-
-Notes on **arrays and range types** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to arrays and range types
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [JSON, JSONB & HSTORE](06-json-jsonb-and-hstore.md)
