@@ -1,23 +1,6 @@
-# Upsert on conflict do
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **upsert on conflict do** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# UPSERT – ON CONFLICT
 
 ```sql
--- example SQL related to upsert on conflict do
+INSERT INTO users (email, name) VALUES ('a@b.com', 'A')
+ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name;
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

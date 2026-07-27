@@ -1,23 +1,7 @@
-# Views and materialized views
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **views and materialized views** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# Views & Materialized Views
 
 ```sql
--- example SQL related to views and materialized views
+CREATE VIEW active_users AS SELECT * FROM users WHERE active = true;
+CREATE MATERIALIZED VIEW user_stats AS SELECT ...
+REFRESH MATERIALIZED VIEW CONCURRENTLY user_stats;
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
