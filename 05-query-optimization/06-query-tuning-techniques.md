@@ -1,23 +1,5 @@
-# Query tuning techniques
+# Query Tuning Techniques
 
-> Status: Draft placeholder
+Rewrite OR to UNION, use EXISTS instead of IN for large sets, avoid functions in WHERE, use proper join order.
 
-## Overview
-
-Notes on **query tuning techniques** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to query tuning techniques
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **06-transactions-and-concurrency** – [ACID & MVCC](../06-transactions-and-concurrency/01-acid-and-mvcc.md)
