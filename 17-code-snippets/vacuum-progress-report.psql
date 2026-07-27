@@ -1,0 +1,37 @@
+-- ============================================================================
+-- vacuum-progress-report.psql
+-- ============================================================================
+-- Description:  Shows progress of currently running VACUUM and AUTOVACUUM
+--               operations (pg_stat_progress_vacuum). Refreshes every second.
+-- Requirements: PostgreSQL 9.6+.
+-- Usage:        psql -h localhost -U postgres -d mydb -f thisfile.psql
+--               Or inside psql:  \i vacuum-progress-report.psql
+-- ============================================================================
+
+\pset null '∅'
+\pset title 'Active VACUUM Operations'
+\x auto
+
+SELECT
+    p.pid,
+    a.usename,
+    p.datname,
+    p.relid::regclass AS table_name,
+    p.phase,
+    p.heap_blks_total,
+    p.heap_blks_scanned,
+    p.heap_blks_vacuumed,
+    p.index_vacuum_count,
+    p.max_dead_tuples,
+    p.num_dead_tuples,
+    round(
+        100.0 * p.heap_blks_scanned / NULLIF(p.heap_blks_total,0),
+        1
+    ) AS heap_scanned_pct,
+    a.query_start,
+    now() - a.query_start AS elapsed
+FROM pg_stat_progress_vacuum p
+JOIN pg_stat_activity a ON p.pid = a.pid
+ORDER BY p.heap_blks_total DESC;
+
+\watch 1
