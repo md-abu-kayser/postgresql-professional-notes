@@ -1,23 +1,5 @@
-# Strings char varchar text
+# String Types
 
-> Status: Draft placeholder
+`CHAR(n)`, `VARCHAR(n)`, `TEXT`. Use `TEXT` for variable unlimited length.
 
-## Overview
-
-Notes on **strings char varchar text** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to strings char varchar text
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Date/Time – TIMESTAMP, INTERVAL](03-date-time-timestamp-interval.md)
