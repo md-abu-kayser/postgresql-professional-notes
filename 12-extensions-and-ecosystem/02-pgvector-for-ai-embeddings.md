@@ -1,23 +1,5 @@
-# Pgvector for ai embeddings
+# pgvector for AI Embeddings
 
-> Status: Draft placeholder
+Store and query vector embeddings. `CREATE EXTENSION vector;`
 
-## Overview
-
-Notes on **pgvector for ai embeddings** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to pgvector for ai embeddings
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [pg_cron & Background Jobs](03-pg_cron-and-background-jobs.md)

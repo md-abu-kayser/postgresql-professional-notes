@@ -1,23 +1,5 @@
-# Pg_cron and background jobs
+# pg_cron & Background Jobs
 
-> Status: Draft placeholder
+Schedule SQL commands inside PostgreSQL.
 
-## Overview
-
-Notes on **pg_cron and background jobs** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to pg_cron and background jobs
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Foreign Data Wrappers (FDW)](04-foreign-data-wrappers-fdw.md)

@@ -1,23 +1,5 @@
-# Foreign data wrappers fdw
+# Foreign Data Wrappers
 
-> Status: Draft placeholder
+Connect to other databases (PostgreSQL, MySQL, etc.) and query as local tables.
 
-## Overview
-
-Notes on **foreign data wrappers fdw** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to foreign data wrappers fdw
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [pg_partman & pg_repack](05-pg_partman-and-pg_repack.md)

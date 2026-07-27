@@ -1,23 +1,5 @@
-# Pg_partman and pg_repack
+# pg_partman & pg_repack
 
-> Status: Draft placeholder
+Automatic partition management. Online table reorganization without heavy locking.
 
-## Overview
-
-Notes on **pg_partman and pg_repack** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to pg_partman and pg_repack
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Writing Custom Extensions](06-writing-custom-extensions.md)
