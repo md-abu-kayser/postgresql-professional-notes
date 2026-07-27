@@ -1,23 +1,5 @@
-# Hybrid search with full text
+# Hybrid Search
 
-> Status: Draft placeholder
+Combine full‑text search and vector similarity for better relevance.
 
-## Overview
-
-Notes on **hybrid search with full text** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to hybrid search with full text
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **Real‑Time Analytics with Logical Decoding** – [CDC Setup & Kafka Connect](../05-real-time-analytics-with-logical-decoding/01-cdc-setup-and-kafka-connect.md)

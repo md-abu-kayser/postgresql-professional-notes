@@ -1,23 +1,5 @@
-# Embedding storage and indexing
+# Vector Search – Embedding Storage
 
-> Status: Draft placeholder
+Store embeddings in `vector` column. Create IVFFlat or HNSW index.
 
-## Overview
-
-Notes on **embedding storage and indexing** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to embedding storage and indexing
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Hybrid Search with Full‑Text](02-hybrid-search-with-full-text.md)
