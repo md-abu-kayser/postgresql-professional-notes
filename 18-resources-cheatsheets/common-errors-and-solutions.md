@@ -1,23 +1,5 @@
-# Common errors and solutions
+# Common Errors & Solutions
 
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **common errors and solutions** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to common errors and solutions
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+- `duplicate key value violates unique constraint` – handle with `ON CONFLICT`.
+- `could not serialize access` – retry transaction or adjust isolation level.
+- `too many connections` – configure connection pooler.
