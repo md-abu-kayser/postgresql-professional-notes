@@ -1,23 +1,7 @@
-# Btree indexes
+# B‑Tree Indexes
 
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **btree indexes** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+Default index type. Good for equality and range queries.
 
 ```sql
--- example SQL related to btree indexes
+CREATE INDEX idx_users_email ON users (email);
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

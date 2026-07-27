@@ -1,23 +1,6 @@
-# Multicolumn and partial indexes
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **multicolumn and partial indexes** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# Multicolumn & Partial Indexes
 
 ```sql
--- example SQL related to multicolumn and partial indexes
+CREATE INDEX idx_name_age ON users (name, age);
+CREATE INDEX idx_active_users ON users (id) WHERE active = true;
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

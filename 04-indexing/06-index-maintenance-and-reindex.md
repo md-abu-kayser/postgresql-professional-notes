@@ -1,23 +1,5 @@
-# Index maintenance and reindex
+# Index Maintenance
 
-> Status: Draft placeholder
+`REINDEX INDEX idx_name;`, `VACUUM` to prevent bloat.
 
-## Overview
-
-Notes on **index maintenance and reindex** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to index maintenance and reindex
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Full‑Text Indexes & Ranking](07-full-text-indexes-and-ranking.md)

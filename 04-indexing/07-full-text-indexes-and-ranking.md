@@ -1,23 +1,5 @@
-# Full text indexes and ranking
+# Full‑Text Indexes & Ranking
 
-> Status: Draft placeholder
+Create GIN index on `tsvector` column or expression. Use `ts_rank` for relevance.
 
-## Overview
-
-Notes on **full text indexes and ranking** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to full text indexes and ranking
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **05-query-optimization** – [EXPLAIN & EXPLAIN ANALYZE](../05-query-optimization/01-explain-and-explain-analyze.md)

@@ -1,23 +1,9 @@
-# Hash gist gin brin spgist indexes
+# Other Index Types
 
-> Status: Draft placeholder
+- **HASH**: only equality.
+- **GIN**: full‑text search, JSONB, arrays.
+- **GIST**: geometry, full‑text.
+- **BRIN**: block range indexes for very large tables.
+- **SP‑GIST**: partitioned search trees.
 
-## Overview
-
-Notes on **hash gist gin brin spgist indexes** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to hash gist gin brin spgist indexes
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Multicolumn & Partial Indexes](03-multicolumn-and-partial-indexes.md)

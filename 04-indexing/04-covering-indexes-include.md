@@ -1,23 +1,5 @@
-# Covering indexes include
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **covering indexes include** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# Covering Indexes
 
 ```sql
--- example SQL related to covering indexes include
+CREATE INDEX idx_users_name_inc_email ON users (name) INCLUDE (email);
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
