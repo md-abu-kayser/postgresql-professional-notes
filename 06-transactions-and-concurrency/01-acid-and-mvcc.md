@@ -1,23 +1,5 @@
-# Acid and mvcc
+# ACID & MVCC
 
-> Status: Draft placeholder
+PostgreSQL uses Multi‑Version Concurrency Control for transaction isolation and consistency.
 
-## Overview
-
-Notes on **acid and mvcc** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to acid and mvcc
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Transaction Isolation Levels](02-transaction-isolation-levels.md)

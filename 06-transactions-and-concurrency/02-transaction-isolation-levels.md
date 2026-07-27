@@ -1,23 +1,5 @@
-# Transaction isolation levels
+# Transaction Isolation Levels
 
-> Status: Draft placeholder
+`READ COMMITTED` (default), `REPEATABLE READ`, `SERIALIZABLE`. Behavior and anomalies.
 
-## Overview
-
-Notes on **transaction isolation levels** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to transaction isolation levels
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Locking – Row‑Level, Table‑Level, Advisory](03-locking-row-level-table-level-advisory.md)
