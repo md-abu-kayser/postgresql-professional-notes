@@ -1,23 +1,5 @@
-# Blogs newsletters communities
+# Blogs, Newsletters & Communities
 
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **blogs newsletters communities** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to blogs newsletters communities
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+- Planet PostgreSQL (blog aggregator)
+- PostgreSQL Weekly News
+- r/PostgreSQL, PostgreSQL Slack

@@ -1,23 +1,7 @@
-# Interview questions
+# PostgreSQL Interview Questions
 
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **interview questions** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to interview questions
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+- Explain MVCC.
+- Difference between `VACUUM` and `ANALYZE`.
+- How do indexes speed up queries?
+- What are transaction isolation levels?
+- How to handle slow queries?
