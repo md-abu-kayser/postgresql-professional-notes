@@ -1,5 +1,7 @@
-# Statistics Collector
+# Join Strategies
 
-`pg_stat_user_tables`, `pg_stat_user_indexes`, `pg_stat_activity`. Use `ANALYZE` to update stats.
+- Nested Loop: small outer, indexed inner.
+- Hash Join: no index, builds hash table.
+- Merge Join: both inputs sorted.
 
-> 📘 Next: [Join Strategies – Nested Loop, Hash, Merge](04-join-strategies-nested-loop-hash-merge.md)
+> 📘 Next: [Index vs Seq Scan Decisions](05-index-vs-seq-scan-decisions.md)
