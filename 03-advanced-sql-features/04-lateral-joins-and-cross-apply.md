@@ -1,23 +1,7 @@
-# Lateral joins and cross apply
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **lateral joins and cross apply** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# LATERAL Joins
 
 ```sql
--- example SQL related to lateral joins and cross apply
+SELECT u.name, p.title
+FROM users u
+JOIN LATERAL (SELECT title FROM posts WHERE author_id = u.id ORDER BY created_at LIMIT 1) p ON true;
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

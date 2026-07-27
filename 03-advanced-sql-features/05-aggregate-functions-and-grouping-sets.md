@@ -1,23 +1,5 @@
-# Aggregate functions and grouping sets
+# Aggregate Functions & GROUPING SETS
 
-> Status: Draft placeholder
+`GROUP BY ROLLUP`, `CUBE`, `GROUPING SETS`. `FILTER` clause for conditional aggregation.
 
-## Overview
-
-Notes on **aggregate functions and grouping sets** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to aggregate functions and grouping sets
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Views & Materialized Views](06-views-and-materialized-views.md)
