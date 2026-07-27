@@ -1,23 +1,5 @@
-# Migrating from oracle
+# Migrating from Oracle
 
-> Status: Draft placeholder
+Ora2Pg tool. PL/SQL to PL/pgSQL conversion.
 
-## Overview
-
-Notes on **migrating from oracle** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to migrating from oracle
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Data Type & Function Mapping Guide](04-data-type-and-function-mapping-guide.md)

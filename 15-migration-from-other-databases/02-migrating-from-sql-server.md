@@ -1,23 +1,5 @@
-# Migrating from sql server
+# Migrating from SQL Server
 
-> Status: Draft placeholder
+Use tools like `sqlserver2pgsql`. Differences in T‑SQL vs PL/pgSQL.
 
-## Overview
-
-Notes on **migrating from sql server** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to migrating from sql server
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Migrating from Oracle](03-migrating-from-oracle.md)
