@@ -1,23 +1,6 @@
-# Row level security rls policies
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **row level security rls policies** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# Row‑Level Security (RLS)
 
 ```sql
--- example SQL related to row level security rls policies
+ALTER TABLE users ENABLE ROW LEVEL SECURITY;
+CREATE POLICY user_policy ON users USING (id = current_setting('app.current_user_id')::int);
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

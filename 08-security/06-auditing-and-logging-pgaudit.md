@@ -1,23 +1,5 @@
-# Auditing and logging pgaudit
+# Auditing with pgAudit
 
-> Status: Draft placeholder
+Install extension. Logs detailed audit trail of database activity.
 
-## Overview
-
-Notes on **auditing and logging pgaudit** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to auditing and logging pgaudit
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **09-administration** – [postgresql.conf & Tuning](../09-administration/01-postgresql-conf-and-tuning.md)

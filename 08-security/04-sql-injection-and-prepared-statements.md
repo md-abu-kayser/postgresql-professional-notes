@@ -1,23 +1,5 @@
-# Sql injection and prepared statements
+# SQL Injection Prevention
 
-> Status: Draft placeholder
+Always use parameterized queries (`$1`, `$2`). Never concatenate user input.
 
-## Overview
-
-Notes on **sql injection and prepared statements** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to sql injection and prepared statements
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [SSL Certificates & Encryption](05-ssl-certificates-and-encryption.md)

@@ -1,23 +1,5 @@
-# Ssl certificates and encryption
+# SSL Certificates & Encryption
 
-> Status: Draft placeholder
+Configure `ssl = on` in `postgresql.conf`. Enforce SSL for clients.
 
-## Overview
-
-Notes on **ssl certificates and encryption** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to ssl certificates and encryption
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Auditing & Logging – pgAudit](06-auditing-and-logging-pgaudit.md)

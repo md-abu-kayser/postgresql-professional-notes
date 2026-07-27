@@ -1,23 +1,5 @@
-# Grant revoke privileges
+# GRANT / REVOKE
 
-> Status: Draft placeholder
+`GRANT SELECT, INSERT ON users TO app_role;`. `REVOKE`.
 
-## Overview
-
-Notes on **grant revoke privileges** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to grant revoke privileges
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Row‑Level Security (RLS) Policies](03-row-level-security-rls-policies.md)

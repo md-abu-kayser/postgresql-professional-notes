@@ -1,23 +1,5 @@
-# Roles and users
+# Roles & Users
 
-> Status: Draft placeholder
+`CREATE ROLE`, `CREATE USER` (alias for role with LOGIN). `GRANT` membership.
 
-## Overview
-
-Notes on **roles and users** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to roles and users
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [GRANT / REVOKE Privileges](02-grant-revoke-privileges.md)
