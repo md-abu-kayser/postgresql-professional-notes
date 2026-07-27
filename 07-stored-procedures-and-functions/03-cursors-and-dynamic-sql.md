@@ -1,23 +1,5 @@
-# Cursors and dynamic sql
+# Cursors & Dynamic SQL
 
-> Status: Draft placeholder
+`REF CURSOR`, `EXECUTE` for dynamic queries.
 
-## Overview
-
-Notes on **cursors and dynamic sql** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to cursors and dynamic sql
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Error Handling & Exceptions](04-error-handling-and-exceptions.md)

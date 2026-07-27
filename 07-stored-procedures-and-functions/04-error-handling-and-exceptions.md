@@ -1,23 +1,5 @@
-# Error handling and exceptions
+# Error Handling
 
-> Status: Draft placeholder
+`BEGIN ... EXCEPTION WHEN ... THEN ... END;`. Log errors, rollback.
 
-## Overview
-
-Notes on **error handling and exceptions** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to error handling and exceptions
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Triggers & Event Triggers](05-triggers-and-event-triggers.md)
