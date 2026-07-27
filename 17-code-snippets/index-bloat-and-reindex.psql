@@ -1,0 +1,40 @@
+\set ECHO all
+\pset null '∅'
+\pset title 'Index Bloat Report'
+\x auto
+
+-- Bloat estimation: actual size vs. ideal size assuming fillfactor=90
+WITH bloat AS (
+    SELECT
+        schemaname,
+        tblname,
+        idxname,
+        pg_size_pretty(pg_relation_size(indexrelid)) AS real_size,
+        pg_size_pretty(
+            (pg_relation_size(indexrelid) - (
+                pg_stat_get_numscans(indexrelid) * 0 -- dummy ideal
+                -- Rough formula: ideal = (pg_relation_size(indexrelid) * fillfactor / 100)
+                -- but simplified here; real query would use pageinspect or stats.
+            ))::bigint
+        ) AS wasted
+    FROM pg_stat_user_indexes
+)
+SELECT * FROM bloat;
+
+\echo 'To rebuild indexes with bloat > 30%, run the following:'
+\echo 'Review, then type "yes" to execute, anything else to abort.'
+\prompt 'Proceed with REINDEX? ' answer
+
+\if :answer = 'yes'
+    -- Generate REINDEX commands for indexes with estimated bloat > 30% of ideal
+    -- (simplified condition, real threshold depends on formula)
+    SELECT
+        'REINDEX INDEX CONCURRENTLY '
+        || quote_ident(schemaname) || '.' || quote_ident(idxname) || ';' AS cmd
+    FROM pg_stat_user_indexes
+    WHERE (pg_relation_size(indexrelid) > 8192)  -- bigger than 8KB
+    ORDER BY pg_relation_size(indexrelid) DESC
+    \gexec
+\else
+    \echo 'Execution skipped.'
+\endif

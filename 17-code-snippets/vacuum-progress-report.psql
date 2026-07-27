@@ -1,13 +1,3 @@
--- ============================================================================
--- vacuum-progress-report.psql
--- ============================================================================
--- Description:  Shows progress of currently running VACUUM and AUTOVACUUM
---               operations (pg_stat_progress_vacuum). Refreshes every second.
--- Requirements: PostgreSQL 9.6+.
--- Usage:        psql -h localhost -U postgres -d mydb -f thisfile.psql
---               Or inside psql:  \i vacuum-progress-report.psql
--- ============================================================================
-
 \pset null '∅'
 \pset title 'Active VACUUM Operations'
 \x auto
