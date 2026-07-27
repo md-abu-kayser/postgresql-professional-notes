@@ -1,23 +1,5 @@
-# Azure database for postgresql
+# Azure Database for PostgreSQL
 
-> Status: Draft placeholder
+Single server and flexible server. Built‑in high availability and backups.
 
-## Overview
-
-Notes on **azure database for postgresql** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to azure database for postgresql
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Neon – Serverless PostgreSQL](04-neon-serverless-postgres.md)

@@ -1,23 +1,5 @@
-# Neon serverless postgres
+# Neon – Serverless PostgreSQL
 
-> Status: Draft placeholder
+Branching, autoscaling, separation of storage and compute.
 
-## Overview
-
-Notes on **neon serverless postgres** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to neon serverless postgres
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Supabase & Hasura](05-supabase-and-hasura.md)

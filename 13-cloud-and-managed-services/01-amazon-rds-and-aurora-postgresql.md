@@ -1,23 +1,5 @@
-# Amazon rds and aurora postgresql
+# Amazon RDS & Aurora PostgreSQL
 
-> Status: Draft placeholder
+Managed PostgreSQL. Aurora provides higher performance and automatic storage scaling.
 
-## Overview
-
-Notes on **amazon rds and aurora postgresql** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to amazon rds and aurora postgresql
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Google Cloud SQL & AlloyDB](02-google-cloud-sql-and-alloydb.md)

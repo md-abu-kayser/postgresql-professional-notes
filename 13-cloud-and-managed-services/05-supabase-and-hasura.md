@@ -1,23 +1,5 @@
-# Supabase and hasura
+# Supabase & Hasura
 
-> Status: Draft placeholder
+Supabase: open‑source Firebase alternative on Postgres. Hasura: instant GraphQL API on Postgres.
 
-## Overview
-
-Notes on **supabase and hasura** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to supabase and hasura
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Self‑Hosted vs Managed Comparison](06-self-hosted-vs-managed-comparison.md)
