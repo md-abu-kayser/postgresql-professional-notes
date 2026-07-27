@@ -1,23 +1,12 @@
-# Recursive ctes
+# Recursive CTEs
 
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **recursive ctes** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+Traverse trees:
 
 ```sql
--- example SQL related to recursive ctes
+WITH RECURSIVE subordinates AS (
+  SELECT id, name, manager_id FROM employees WHERE id = 1
+  UNION ALL
+  SELECT e.id, e.name, e.manager_id FROM employees e INNER JOIN subordinates s ON e.manager_id = s.id
+)
+SELECT * FROM subordinates;
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

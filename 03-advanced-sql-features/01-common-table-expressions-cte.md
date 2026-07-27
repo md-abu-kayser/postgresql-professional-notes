@@ -1,23 +1,8 @@
-# Common table expressions cte
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **common table expressions cte** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# CTE – WITH Queries
 
 ```sql
--- example SQL related to common table expressions cte
+WITH active_users AS (
+  SELECT * FROM users WHERE active = true
+)
+SELECT * FROM active_users;
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs

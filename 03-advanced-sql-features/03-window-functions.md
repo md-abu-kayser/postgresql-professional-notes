@@ -1,23 +1,5 @@
-# Window functions
+# Window Functions
 
-> Status: Draft placeholder
+`ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `LAG()`, `LEAD()`, `SUM() OVER (PARTITION BY ...)`.
 
-## Overview
-
-Notes on **window functions** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to window functions
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [LATERAL Joins & CROSS APPLY](04-lateral-joins-and-cross-apply.md)
