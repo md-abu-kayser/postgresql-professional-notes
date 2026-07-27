@@ -1,23 +1,5 @@
-# Backup and disaster recovery
+# Backup & Disaster Recovery
 
-> Status: Draft placeholder
+Point‑in‑time recovery with WAL archiving. Cross‑region replication.
 
-## Overview
-
-Notes on **backup and disaster recovery** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to backup and disaster recovery
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **Ecommerce Warehouse** – [Star Schema & Analytics Queries](../02-ecommerce-warehouse/01-star-schema-and-analytics-queries.md)

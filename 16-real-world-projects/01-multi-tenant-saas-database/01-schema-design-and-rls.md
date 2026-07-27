@@ -1,23 +1,5 @@
-# Schema design and rls
+# Multi‑Tenant SaaS – Schema Design & RLS
 
-> Status: Draft placeholder
+Shared table with `tenant_id`, enforce isolation with RLS policies.
 
-## Overview
-
-Notes on **schema design and rls** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to schema design and rls
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Query Patterns & Indexing](02-query-patterns-and-indexing.md)

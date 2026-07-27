@@ -1,23 +1,5 @@
-# Query patterns and indexing
+# Query Patterns & Indexing
 
-> Status: Draft placeholder
+Composite indexes including `tenant_id`. Partial indexes for tenant‑specific data.
 
-## Overview
-
-Notes on **query patterns and indexing** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to query patterns and indexing
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Backup & Disaster Recovery](03-backup-and-disaster-recovery.md)
