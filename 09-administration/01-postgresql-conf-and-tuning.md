@@ -1,23 +1,5 @@
-# Postgresql conf and tuning
+# postgresql.conf & Tuning
 
-> Status: Draft placeholder
+Key settings: `shared_buffers`, `effective_cache_size`, `work_mem`, `maintenance_work_mem`, `max_connections`.
 
-## Overview
-
-Notes on **postgresql conf and tuning** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to postgresql conf and tuning
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Connection Pooling – PgBouncer, pgcat](02-connection-pooling-pgbouncer-pgcat.md)
