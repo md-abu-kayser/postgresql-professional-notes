@@ -1,23 +1,5 @@
-# Reading execution plans
+# Reading Execution Plans
 
-> Status: Draft placeholder
+Node types: Seq Scan, Index Scan, Nested Loop, Hash Join, Merge Join. Understand startup and total cost.
 
-## Overview
-
-Notes on **reading execution plans** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to reading execution plans
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Cost Estimates & Statistics – pg*stat*\*](03-cost-estimates-and-statistics-pg_stat_*.md)

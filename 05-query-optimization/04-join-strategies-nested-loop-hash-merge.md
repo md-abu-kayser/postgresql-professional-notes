@@ -1,23 +1,5 @@
-# Join strategies nested loop hash merge
+# Statistics Collector
 
-> Status: Draft placeholder
+`pg_stat_user_tables`, `pg_stat_user_indexes`, `pg_stat_activity`. Use `ANALYZE` to update stats.
 
-## Overview
-
-Notes on **join strategies nested loop hash merge** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to join strategies nested loop hash merge
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Join Strategies – Nested Loop, Hash, Merge](04-join-strategies-nested-loop-hash-merge.md)
