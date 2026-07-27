@@ -1,23 +1,5 @@
-# User defined functions and aggregates
+# User‑Defined Functions & Aggregates
 
-> Status: Draft placeholder
+Create custom aggregate with `CREATE AGGREGATE`. Write functions in SQL, PL/pgSQL, C, Python.
 
-## Overview
-
-Notes on **user defined functions and aggregates** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to user defined functions and aggregates
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **08-security** – [Roles & Users](../08-security/01-roles-and-users.md)

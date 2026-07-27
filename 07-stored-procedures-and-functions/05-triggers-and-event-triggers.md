@@ -1,23 +1,7 @@
-# Triggers and event triggers
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **triggers and event triggers** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# Triggers
 
 ```sql
--- example SQL related to triggers and event triggers
+CREATE TRIGGER trg_update_timestamp
+  BEFORE UPDATE ON users
+  FOR EACH ROW EXECUTE FUNCTION update_timestamp();
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
