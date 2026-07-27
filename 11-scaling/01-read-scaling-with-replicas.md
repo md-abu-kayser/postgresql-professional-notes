@@ -1,23 +1,5 @@
-# Read scaling with replicas
+# Read Scaling with Replicas
 
-> Status: Draft placeholder
+Direct read queries to standby replicas using read/write splitter (PgBouncer, pgpool‑II).
 
-## Overview
-
-Notes on **read scaling with replicas** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to read scaling with replicas
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Connection Pooling at Scale](02-connection-pooling-at-scale.md)

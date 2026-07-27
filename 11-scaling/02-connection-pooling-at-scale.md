@@ -1,23 +1,5 @@
-# Connection pooling at scale
+# Connection Pooling at Scale
 
-> Status: Draft placeholder
+Use PgBouncer transaction pooling to reduce connections. Pgcat for load balancing across replicas.
 
-## Overview
-
-Notes on **connection pooling at scale** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to connection pooling at scale
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Partitioning – Declarative (LIST, RANGE, HASH)](03-partitioning-declarative-list-range-hash.md)

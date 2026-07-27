@@ -1,23 +1,6 @@
-# Partitioning declarative list range hash
-
-> Status: Draft placeholder
-
-## Overview
-
-Notes on **partitioning declarative list range hash** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
+# Table Partitioning
 
 ```sql
--- example SQL related to partitioning declarative list range hash
+CREATE TABLE orders (...) PARTITION BY RANGE (order_date);
+CREATE TABLE orders_2024 PARTITION OF orders FOR VALUES FROM ('2024-01-01') TO ('2025-01-01');
 ```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
