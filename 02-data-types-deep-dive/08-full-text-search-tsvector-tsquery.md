@@ -1,23 +1,5 @@
-# Full text search tsvector tsquery
+# Full‑Text Search
 
-> Status: Draft placeholder
+`tsvector`, `tsquery`, `@@`, `ts_rank`. GIN index for performance.
 
-## Overview
-
-Notes on **full text search tsvector tsquery** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to full text search tsvector tsquery
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: **03-advanced-sql-features** – [Common Table Expressions (CTE)](../03-advanced-sql-features/01-common-table-expressions-cte.md)

@@ -1,23 +1,5 @@
-# Json jsonb and hstore
+# JSON/JSONB & HSTORE
 
-> Status: Draft placeholder
+`JSON` stores text exactly; `JSONB` is binary, indexable. HSTORE is key‑value store.
 
-## Overview
-
-Notes on **json jsonb and hstore** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to json jsonb and hstore
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Custom Types & Domains](07-custom-types-and-domains.md)
