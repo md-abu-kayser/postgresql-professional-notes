@@ -1,23 +1,5 @@
-# Log management and pgbadger
+# Log Management & pgBadger
 
-> Status: Draft placeholder
+Configure `log_destination`, `log_line_prefix`. pgBadger generates HTML reports from logs.
 
-## Overview
-
-Notes on **log management and pgbadger** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to log management and pgbadger
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Upgrading PostgreSQL – pg_upgrade, Logical Replication](07-upgrading-postgresql-pg_upgrade-logical-replication.md)

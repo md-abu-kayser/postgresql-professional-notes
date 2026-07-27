@@ -1,23 +1,5 @@
-# Connection pooling pgbouncer pgcat
+# Connection Pooling
 
-> Status: Draft placeholder
+PgBouncer: lightweight connection pooler. pgcat: advanced with sharding and load balancing.
 
-## Overview
-
-Notes on **connection pooling pgbouncer pgcat** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to connection pooling pgbouncer pgcat
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Backup & Restore – pg_dump, pg_restore](03-backup-and-restore-pg_dump-pg_restore.md)

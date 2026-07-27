@@ -1,23 +1,5 @@
-# Backup and restore pg_dump pg_restore
+# Backup & Restore
 
-> Status: Draft placeholder
+`pg_dump mydb > backup.sql`, `pg_restore`. `pg_dumpall` for global objects. For large DBs: `pg_basebackup`.
 
-## Overview
-
-Notes on **backup and restore pg_dump pg_restore** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to backup and restore pg_dump pg_restore
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Point‑in‑Time Recovery (PITR)](04-point-in-time-recovery-pitr.md)

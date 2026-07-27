@@ -1,23 +1,5 @@
-# Monitoring with pg_stat_statements pg_stat_activity
+# Monitoring
 
-> Status: Draft placeholder
+`pg_stat_statements` tracks query performance. `pg_stat_activity` shows current sessions.
 
-## Overview
-
-Notes on **monitoring with pg_stat_statements pg_stat_activity** go here.
-
-## Key Points
-
-- TODO: add key concepts
-- TODO: add examples
-- TODO: add gotchas / best practices
-
-## Example
-
-```sql
--- example SQL related to monitoring with pg_stat_statements pg_stat_activity
-```
-
-## References
-
-- TODO: add links to official PostgreSQL docs
+> 📘 Next: [Log Management & pgBadger](06-log-management-and-pgbadger.md)
