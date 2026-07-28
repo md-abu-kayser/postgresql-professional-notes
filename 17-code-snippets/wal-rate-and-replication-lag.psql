@@ -1,0 +1,38 @@
+\pset footer off
+\pset null '∅'
+\echo 'Monitoring WAL rate and replication lag (5 sec intervals, Ctrl+C to stop)'
+
+-- Temporary table to store last LSN snapshot
+CREATE TEMP TABLE IF NOT EXISTS wal_snapshot (
+    ts timestamp,
+    lsn pg_lsn
+);
+
+-- Initialize snapshot
+TRUNCATE wal_snapshot;
+INSERT INTO wal_snapshot VALUES (clock_timestamp(), pg_current_wal_lsn());
+
+SELECT
+    now() AS sample_time,
+    current_lsn,
+    round(lsn_diff / 1024.0 / 5, 2) AS wal_rate_kb_per_sec,
+    replication_lag_sec
+FROM (
+    SELECT
+        current_lsn,
+        (pg_wal_lsn_diff(pg_current_wal_lsn(), prev.lsn)) AS lsn_diff,
+        COALESCE(
+            MAX(EXTRACT(epoch FROM (now() - replay_time))),
+            0
+        ) AS replication_lag_sec
+    FROM wal_snapshot prev
+    CROSS JOIN (SELECT pg_current_wal_lsn() AS current_lsn) cur
+    LEFT JOIN pg_stat_replication ON true
+    GROUP BY current_lsn, prev.lsn
+) sub;
+
+-- Update snapshot for next measurement
+UPDATE wal_snapshot SET ts = clock_timestamp(), lsn = pg_current_wal_lsn();
+
+\watch 5
+-- Cleanup when done (Ctrl+C will exit script, temp table dropped on disconnect)
