@@ -1,0 +1,32 @@
+\set output_file :file
+
+\if :{?file}
+    \o :output_file
+    \echo 'Writing EXPLAIN plans for top 10 slow queries to :output_file ...'
+\else
+    \echo 'ERROR: Set the :file variable to an output filename.'
+    \echo 'Example: psql -v file=plans.txt -f explain.psql'
+    \quit
+\endif
+
+WITH top_queries AS (
+    SELECT
+        queryid,
+        substr(query, 1, 200) AS snippet,
+        mean_exec_time,
+        calls
+    FROM pg_stat_statements
+    WHERE query !~* '^(SET|SHOW|BEGIN|COMMIT|EXPLAIN)'
+    ORDER BY mean_exec_time DESC
+    LIMIT 10
+)
+SELECT
+    '-- QueryID: ' || queryid || E'\n' ||
+    '-- Mean Time: ' || round(mean_exec_time::numeric, 2) || ' ms, Calls: ' || calls || E'\n' ||
+    '-- Snippet: ' || snippet || E'\n' ||
+    'EXPLAIN (ANALYZE, BUFFERS, COSTS, VERBOSE) ' || query || E'\n' || ';'
+FROM top_queries
+JOIN pg_stat_statements USING (queryid);
+
+\o
+\echo 'Done. Plans saved to :output_file'
