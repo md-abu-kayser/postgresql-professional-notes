@@ -1,0 +1,19 @@
+\pset title 'Table Size & Bloat'
+\x
+SELECT
+    schemaname,
+    relname AS table_name,
+    pg_size_pretty(pg_total_relation_size(relid)) AS total_size,
+    pg_size_pretty(pg_relation_size(relid)) AS data_size,
+    pg_size_pretty(pg_indexes_size(relid)) AS indexes_size,
+    pg_size_pretty(pg_total_relation_size(reltoastrelid)) AS toast_size,
+    n_live_tup,
+    n_dead_tup,
+    CASE WHEN n_live_tup > 0
+         THEN round(100.0 * n_dead_tup / n_live_tup, 1)
+         ELSE 0
+    END AS dead_tuple_pct,
+    last_autovacuum,
+    last_autoanalyze
+FROM pg_stat_user_tables
+ORDER BY pg_total_relation_size(relid) DESC;
