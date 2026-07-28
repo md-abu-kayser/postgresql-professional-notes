@@ -1,0 +1,19 @@
+\set ECHO all
+\pset title 'PgBouncer Pool Statistics'
+\x auto
+
+-- 1. Overall pools
+SHOW POOLS;
+
+-- 2. Client connections
+SHOW CLIENTS;
+
+-- 3. Servers (backends)
+SHOW SERVERS;
+
+-- 4. Databases and users stats
+SHOW DATABASES;
+SHOW STATS;
+
+-- 5. Configuration (uncomment if needed)
+-- SHOW CONFIG;
