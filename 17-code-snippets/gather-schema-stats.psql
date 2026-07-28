@@ -1,0 +1,19 @@
+\set target_schema :schema
+
+\if :{?schema}
+    \echo 'Gathering statistics for schema :target_schema ...'
+\else
+    \echo 'No schema specified; gathering statistics for ALL user tables.'
+    \set target_schema '%'
+\endif
+
+SELECT
+    'ANALYZE VERBOSE '
+    || quote_ident(schemaname) || '.' || quote_ident(tablename) || ';' AS cmd
+FROM pg_tables
+WHERE schemaname LIKE :'target_schema'
+  AND schemaname NOT IN ('pg_catalog', 'information_schema')
+ORDER BY schemaname, tablename
+\gexec
+
+\echo 'Statistics gathering completed.'
