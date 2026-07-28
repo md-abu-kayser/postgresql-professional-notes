@@ -1,0 +1,18 @@
+\set DB       :DB
+\set USER     :USER
+\set HOST     localhost
+\set PORT     5432
+\set OUTPUT_DIR ./backups
+
+-- Ensure output directory exists
+\! mkdir -p :OUTPUT_DIR
+
+\echo 'Backing up schema only for database :DB ...'
+\! pg_dump -h :HOST -p :PORT -U :USER -s -d :DB -f :OUTPUT_DIR/:DB_schema.sql
+\echo 'Schema backup saved to :OUTPUT_DIR/:DB_schema.sql'
+
+\echo 'Backing up data only (table data, no schema) ...'
+\! pg_dump -h :HOST -p :PORT -U :USER -a -d :DB -f :OUTPUT_DIR/:DB_data.sql
+\echo 'Data-only backup saved to :OUTPUT_DIR/:DB_data.sql'
+
+\echo 'Backup complete.'

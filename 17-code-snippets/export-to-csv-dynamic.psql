@@ -1,0 +1,12 @@
+\set query_string :query
+\set output_file  :file
+
+\if :{?query}
+    \echo 'Exporting query results to :output_file ...'
+    \copy (:query_string) TO :'output_file' WITH (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+    \echo 'Export finished. Total rows: ' ; (SELECT COUNT(*) FROM (:query_string) AS sub)
+\else
+    \echo 'ERROR: Must set :query and :file variables.'
+    \echo 'Example: psql -v query="SELECT 1" -v file=out.csv -f thisfile.psql'
+    \quit
+\endif
